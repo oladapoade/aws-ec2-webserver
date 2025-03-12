@@ -53,3 +53,36 @@ chmod 400 oladapo-key.pem
 
 # Connect to EC2
 ssh -i oladapo-key.pem ec2-user@18.227.114.52
+---
+
+    ✅ 3. Update the System
+sudo yum update -y
+
+    ✅ 4. Install Apache Web Server
+sudo yum install httpd -y
+
+    ✅ 5. Start and Enable the Web Server
+sudo systemctl start httpd
+sudo systemctl enable httpd
+
+    ✅ 6. Create and Deploy a Web Page
+# Navigate to the web root directory
+cd /var/www/html
+
+# Create a simple index.html file
+sudo nano index.html
+
+<h1>Hello from Oladapo's Cloud Web Server!</h1>
+
+    ✅ 7. View Your Live Page
+http://18.227.114.52
+
+
+
+
+
+
+
+
+
+
