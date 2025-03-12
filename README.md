@@ -55,17 +55,17 @@ chmod 400 oladapo-key.pem
 ssh -i oladapo-key.pem ec2-user@18.227.114.52
 ---
 
-###    ✅ 3. Update the System
+    ✅ 3. Update the System
 sudo yum update -y
 
     ✅ 4. Install Apache Web Server
 sudo yum install httpd -y
 
-###    ✅ 5. Start and Enable the Web Server
+    ✅ 5. Start and Enable the Web Server
 sudo systemctl start httpd
 sudo systemctl enable httpd
 
-###   ✅ 6. Create and Deploy a Web Page
+    ✅ 6. Create and Deploy a Web Page
 # Navigate to the web root directory
 cd /var/www/html
 
@@ -74,8 +74,62 @@ sudo nano index.html
 
 <h1>Hello from Oladapo's Cloud Web Server!</h1>
 
- ###   ✅ 7. View Your Live Page
+     ✅ 7. View Your Live Page
 http://18.227.114.52
+
+💡 Skills Demonstrated
+AWS EC2 provisioning
+SSH and key-based access
+Linux terminal navigation
+Apache web server installation
+Security Group configuration
+HTML file deployment on a cloud server
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Oladapo's Cloud Web Server</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      text-align: center;
+      padding-top: 100px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    p {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello from Oladapo's Cloud Web Server!</h1>
+  <p>This web page is hosted on an AWS EC2 instance using Apache.</p>
+  <p>Project by <strong>Oladapo Adenekan</strong></p>
+</body>
+</html>
+
+✍️ Author
+Oladapo Adenekan
+Cloud & DevOps Enthusiast
+📍 Ohio, USA
+LinkedIn- linkedin: www.linkedin.com/in/oladapo568
+
+
+## ⭐ Summary
+
+This hands-on project demonstrates my ability to launch and configure an AWS EC2 instance, establish secure SSH access using a key pair, install and manage a web server using Apache, and deploy a custom HTML page to the cloud.  
+
+It showcases my foundational skills in cloud computing, Linux server management, networking (security groups), and basic web hosting.  
+
+This project reflects the real-world tasks expected in entry-level cloud, DevOps, IT support, and cybersecurity roles — and is part of my continued learning journey toward cloud and GRC security excellence.
+
+
+
 
 
 
