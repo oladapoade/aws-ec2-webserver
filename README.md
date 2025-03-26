@@ -3,8 +3,6 @@
 
 This is a hands-on project where I launched an EC2 instance on AWS, connected via SSH, installed and configured Apache, and deployed a live HTML page from the cloud.
 
-📄 View the full PDF report: `Oladapo_EC2_Web_Server_Project_StepByStep_Cleaned.pdf`
-
 ---
 
 ### 🚀 Step 1: Launch EC2 Instance
